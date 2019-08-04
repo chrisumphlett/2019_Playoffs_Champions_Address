@@ -17,6 +17,9 @@ options(htmltools.dir.version = FALSE)
 library(tidyverse)
 ```
 
+   
+---
+
 ``` {r create_loop_parms, echo = FALSE}
 
 teams <- c("Jerry's Belt Buckle",
@@ -57,6 +60,31 @@ finish <- c("Champion",
 
 ```
 
+---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yR_2GQ6mZLc?start=42" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+``` {r yahoo_api}
+#http://ryankuhn.net/blog/Fantasy-Football-in-R-Part-I
+# Setup the environment
+# library(httr)
+# library(XML)
+# library(httpuv)
+# options("httr_oob_default" = T)
+
+# Setup the app
+# yahoo_key <- invisible(Sys.getenv("yahoo_key"))
+# yahoo_secret <- invisible(Sys.getenv("yahoo_secret"))
+# 
+# yahoo <- oauth_endpoints("yahoo")
+# 
+# myapp <- oauth_app("yahoo", key = yahoo_key, secret = yahoo_secret)
+# yahoo_token <- oauth2.0_token(yahoo, myapp, cache = T, use_oob = T)
+# sig <- sign_oauth1.0(myapp, yahoo_token$oauth_token, yahoo_token$oauth_token_secret)
+```
+
 ``` {r loop_function, results = "asis"}
 i <- 1
 
@@ -72,5 +100,50 @@ xarin_fun <- function() {
   }
 }
 
-xarin_fun()
+# xarin_fun()
 ```
+
+---
+
+## Awards
+### Heart and Soul of Jerry's Belt Buckle
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oqafyEW5PPA?start=38&end=55" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+## Awards
+### Keeper of the year
+
+Some of you scoffed when I selected him with the 16th round draft pick in 2017. One of you acquired Le'Veon Bell and would not offer much of anything in a trade for him. All of you wished you had him. The foundation of my dominant season started with this guy.
+ 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/n6y06uCUEvo?start=0&end=20" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+## Awards
+### Rookie of the year
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CEMzXOpVkzI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+## Awards
+### Solution to a problem I could never solve guy
+
+Over the years I've had a hate-hate relationship with the TE position. Last year I finally decided to reach a bit to get some security. 
+
+Kelce
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OCLQ8mNYlgE?start=86&end=104" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+## Awards
+### Mid-season acquisition of the year
+
+I traded for this guy to raise the ceiling of my team. It paid off when __
+Watson
+<iframe width="560" height="315" src="https://www.youtube.com/embed/u34s4UTplLM?start=225&end=237" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2nPSP_N6NLs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
