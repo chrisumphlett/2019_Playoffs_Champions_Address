@@ -17,137 +17,98 @@ options(htmltools.dir.version = FALSE)
 library(tidyverse)
 ```
 
-   
+## A Collaborative Approach
+
+(I'm not gonna lie. I thought about coming up here and talking about how, when I was in the hospital right here in Raleigh NC in 2016, on death's door with a mysterious illness, and none of you visited me, that i planned my revenge-- to crush you in historic proportions. All of that is true, except for the bitterness. I was happy to be alive then, and I'm happy to be with you today.
+
+so this will not be a time to gloat. not today. this wasn't my championship. this was our championship. each one of you allowed me to defeat you at least once in 2018; Billy, one of my oldest friends, gave me the pleasure of defeating him twice by a total of 53 points; Aaron and VZ even allowed me to beat them thrice, by 67 and 79 points respectively (but who's counting). You truly do embody the apostle Paul's exhortation to "outdo one another in showing honor".
+
+we've all had some of these players on our teams. this will be a time to celebrate us; to celebrate our players; and to laugh together. i hope that each of you will see that your greatest joy is not in individual triumph, but in working together towards one goal: to see Jerry's Belt Buckle repeat as champion in 2019)
 ---
 
-``` {r create_loop_parms, echo = FALSE}
+## Celebrating our victory
 
-teams <- c("Jerry's Belt Buckle",
-           "The Institute",
-           "Kayak Pirates",
-           "The Maccabee",
-           "The Commish",
-           "K Rabbits",
-           "Black is for Sunday",
-           "The Icon",
-           "40 Acres and a Mule",
-           "Show Me Da Money!"
-           )
+<iframe width="560" height="315" src="https://www.youtube.com/embed/M3Tf9yccMlk?start=63&end=92" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-record <- c("12 - 2 (1st)",
-            "12 - 2 (2nd)",
-            "10 - 4 (3rd)",
-            "7 - 7 (4th)",
-            "5 - 9 (5th)",
-            "5 - 9 (6th)",
-            "6 - 8 (7th)",
-            "6 - 8 (8th)",
-            "4 - 10 (9th)",
-            "3 - 11 (10th)"
-            )
+---
 
-finish <- c("Champion",
-            "First Loser",
-            "3rd",
-            "4th",
-            "5th",
-            "6th",
-            "7th",
-            "8th",
-            "Did not qualify",
-            "Did not qualify"
-            )
+## Celebrating our players
 
+(next, let's celebrate our players. When you see a guy, i think it will be interesting, by a show of hands, to see how much we have a shared history with these guys (and how ridiculous this all really is). We're also going to play a game of "Caption this" for each image.)
+
+---
+
+## Zach Zenner
+
+.pull-left[
+``` {r ZZ, out.height=400, out.width = 270, eval = TRUE, echo = FALSE}
+knitr::include_graphics("https://bloximages.chicago2.vip.townnews.com/mtstandard.com/content/tncms/assets/v3/editorial/6/4c/64c6a5ca-84a4-5421-b10b-a8cd600f941e/5476660842584.image.jpg")
+```
+]
+
+--
+
+.pull-right[
+``` {r BC, out.height=400, out.width = 270, eval = TRUE, echo = FALSE}
+knitr::include_graphics("C:/Users/Chris/Documents/GITHUB/2019_Playoffs_Champions_Address/files/cozart.PNG")
+```
+]
+
+*2019 is not actually Brent Cozart's first year in the league, just his first year as a manager.*
+
+---
+
+## James Conner
+
+.pull-left[
+``` {r JC, out.height=450, out.width = 300, eval = TRUE, echo = FALSE}
+knitr::include_graphics("https://pbs.twimg.com/media/DxmtrnrX0AI4QNK?format=jpg&name=large")
+#![James Conner](https://pbs.twimg.com/media/DxmtrnrX0AI4QNK?format=jpg&name=large)
+```
+] 
+--
+.pull-right[
+*Maybe Kris would've traded for James Conner if he knew about this haircut.*
+]
+---
+
+## Saquon Barkley
+.pull-left[
+``` {r SB, out.height=450, out.width = 400, eval = TRUE, echo = FALSE}
+knitr::include_graphics("https://www.centredaily.com/latest-news/5vdy02/picture230568409/alternates/FREE_1140/________saquonWALK.jpg")
+```
+]
+
+--
+.pull-right[
+*Can you believe Jerry's Belt Buckle drafted me 4th and he didn't even know what I looked like?* 
+]
+---
+
+## Travis Kelce
+
+``` {r TK, out.height=400, out.width = 500, eval = TRUE, echo = FALSE}
+knitr::include_graphics("C:/Users/Chris/Documents/GITHUB/2019_Playoffs_Champions_Address/files/kelce_and_mahomes.PNG")
+```
+
+--
+
+*Wow, you threw for 5 TD's and the Commish is still losing...*
+
+---
+
+## Mike Evans
+
+``` {r ME, out.height=400, out.width = 600, eval = TRUE, echo = FALSE}
+knitr::include_graphics("http://images.thepostgame.com/sites/default/files/styles/story_main/public/GettyImages-607568072-mike-evans-compressor.jpg")
 ```
 
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yR_2GQ6mZLc?start=42" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+## Mike Evans
 
----
-
-``` {r yahoo_api}
-#http://ryankuhn.net/blog/Fantasy-Football-in-R-Part-I
-# Setup the environment
-# library(httr)
-# library(XML)
-# library(httpuv)
-# options("httr_oob_default" = T)
-
-# Setup the app
-# yahoo_key <- invisible(Sys.getenv("yahoo_key"))
-# yahoo_secret <- invisible(Sys.getenv("yahoo_secret"))
-# 
-# yahoo <- oauth_endpoints("yahoo")
-# 
-# myapp <- oauth_app("yahoo", key = yahoo_key, secret = yahoo_secret)
-# yahoo_token <- oauth2.0_token(yahoo, myapp, cache = T, use_oob = T)
-# sig <- sign_oauth1.0(myapp, yahoo_token$oauth_token, yahoo_token$oauth_token_secret)
+``` {r ME2, out.height=400, out.width = 600, eval = TRUE, echo = FALSE}
+knitr::include_graphics("C:/Users/Chris/Documents/GITHUB/2019_Playoffs_Champions_Address/files/evans.PNG")
 ```
 
-``` {r loop_function, results = "asis"}
-i <- 1
-
-xarin_fun <- function() {
-
-  for (team in teams) {
-
-    cat("---")
-    cat(paste0("\n # ", team, "\n\n"))
-    cat(paste0("Regular season record: ", record[i], "\n\n"))
-    cat(paste0("Playoff finish: ", finish[i], "\n\n"))
-    i <- i + 1
-  }
-}
-
-# xarin_fun()
-```
-
----
-
-## Awards
-### Heart and Soul of Jerry's Belt Buckle
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/oqafyEW5PPA?start=38&end=55" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
----
-
-## Awards
-### Keeper of the year
-
-Some of you scoffed when I selected him with the 16th round draft pick in 2017. One of you acquired Le'Veon Bell and would not offer much of anything in a trade for him. All of you wished you had him. The foundation of my dominant season started with this guy.
- 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/n6y06uCUEvo?start=0&end=20" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
----
-
-## Awards
-### Rookie of the year
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CEMzXOpVkzI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
----
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SFEW9o0nauc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
----
-
-## Awards
-### Solution to a problem I could never solve guy
-
-Over the years I've had a hate-hate relationship with the TE position. Last year I finally decided to reach a bit to get some security. 
-
-Kelce
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OCLQ8mNYlgE?start=86&end=104" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
----
-
-## Awards
-### Mid-season acquisition of the year
-
-I traded for this guy to raise the ceiling of my team. It paid off when __
-Watson
-<iframe width="560" height="315" src="https://www.youtube.com/embed/u34s4UTplLM?start=225&end=237" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
----
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2nPSP_N6NLs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+*Oh, wow, this is awkward. I guess I don't have to worry about some of you drafting him before me in the 3rd round this year...*
