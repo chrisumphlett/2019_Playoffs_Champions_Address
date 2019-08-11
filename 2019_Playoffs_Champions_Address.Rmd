@@ -19,7 +19,7 @@ library(tidyverse)
 
 ## Intro
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uLS-WE4K8q0?start=1&end=40?&autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uLS-WE4K8q0?start=1&autoplay=1&end=40" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
@@ -93,7 +93,7 @@ knitr::include_graphics("https://www.centredaily.com/latest-news/5vdy02/picture2
 ## Travis Kelce
 
 ``` {r TK, out.height=400, out.width = 500, eval = TRUE, echo = FALSE}
-knitr::include_graphics("C:/Users/Chris/Documents/GITHUB/2019_Playoffs_Champions_Address/files/kelce_and_mahomes.PNG")
+knitr::include_graphics("files/kelce_and_mahomes.PNG")
 ```
 
 --
@@ -127,11 +127,11 @@ knitr::include_graphics("files/evans.PNG")
 --
 
 ``` {r foster, out.height=400, out.width = 600, eval = TRUE, echo = FALSE}
-knitr::include_graphics("files/foster.PNG")
+knitr::include_graphics("files/foster.png")
 ```
 
 ---
 
 ## Outro
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uLS-WE4K8q0?start=137&end=273&autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uLS-WE4K8q0?start=137&autoplay=1&end=273" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
