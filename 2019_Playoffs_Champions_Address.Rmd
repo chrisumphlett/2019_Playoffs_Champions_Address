@@ -17,6 +17,12 @@ options(htmltools.dir.version = FALSE)
 library(tidyverse)
 ```
 
+## Intro
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uLS-WE4K8q0?start=1&end=40?&autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
 ## A Collaborative Approach
 
 (I'm not gonna lie. I thought about coming up here and talking about how, when I was in the hospital right here in Raleigh NC in 2016, on death's door with a mysterious illness, and none of you visited me, that i planned my revenge-- to crush you in historic proportions. All of that is true, except for the bitterness. I was happy to be alive then, and I'm happy to be with you today.
@@ -28,7 +34,7 @@ we've all had some of these players on our teams. this will be a time to celebra
 
 ## Celebrating our victory
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/M3Tf9yccMlk?start=63&end=92" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/M3Tf9yccMlk?start=63&end=93" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
@@ -50,7 +56,7 @@ knitr::include_graphics("https://bloximages.chicago2.vip.townnews.com/mtstandard
 
 .pull-right[
 ``` {r BC, out.height=400, out.width = 270, eval = TRUE, echo = FALSE}
-knitr::include_graphics("C:/Users/Chris/Documents/GITHUB/2019_Playoffs_Champions_Address/files/cozart.PNG")
+knitr::include_graphics("files/cozart.PNG")
 ```
 ]
 
@@ -63,7 +69,6 @@ knitr::include_graphics("C:/Users/Chris/Documents/GITHUB/2019_Playoffs_Champions
 .pull-left[
 ``` {r JC, out.height=450, out.width = 300, eval = TRUE, echo = FALSE}
 knitr::include_graphics("https://pbs.twimg.com/media/DxmtrnrX0AI4QNK?format=jpg&name=large")
-#![James Conner](https://pbs.twimg.com/media/DxmtrnrX0AI4QNK?format=jpg&name=large)
 ```
 ] 
 --
@@ -108,7 +113,25 @@ knitr::include_graphics("http://images.thepostgame.com/sites/default/files/style
 ## Mike Evans
 
 ``` {r ME2, out.height=400, out.width = 600, eval = TRUE, echo = FALSE}
-knitr::include_graphics("C:/Users/Chris/Documents/GITHUB/2019_Playoffs_Champions_Address/files/evans.PNG")
+knitr::include_graphics("files/evans.PNG")
 ```
 
 *Oh, wow, this is awkward. I guess I don't have to worry about some of you drafting him before me in the 3rd round this year...*
+
+---
+
+## Team Announcements
+
+(JBB has been discussing internally about whether or not to expand our front office. We have made some decisions about the types of hires we will make, but not the long-term structure of the organization. We may be bringing on a new staff member on a short-term basis).
+
+--
+
+``` {r foster, out.height=400, out.width = 600, eval = TRUE, echo = FALSE}
+knitr::include_graphics("files/foster.PNG")
+```
+
+---
+
+## Outro
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uLS-WE4K8q0?start=137&end=273&autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
