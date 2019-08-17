@@ -19,7 +19,7 @@ library(tidyverse)
 
 ## Intro
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uLS-WE4K8q0?start=1&end=40" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uLS-WE4K8q0?start=1&end=40" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
@@ -175,4 +175,4 @@ advance
 
 ## Outro
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uLS-WE4K8q0?start=137&end=273" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uLS-WE4K8q0?start=137&end=273" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
