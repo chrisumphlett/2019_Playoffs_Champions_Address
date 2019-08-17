@@ -13,17 +13,19 @@ output:
 
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
-
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 library(tidyverse)
 ```
 
 ## Intro
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uLS-WE4K8q0?start=1&end=40&autoplay=1&end=40" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uLS-WE4K8q0?start=1&end=40" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
 ## A Collaborative Approach
+
+???
 
 (I'm not gonna lie. I thought about coming up here and talking about how, when I was in the hospital right here in Raleigh NC in 2016, on death's door with a mysterious illness, and none of you visited me, that i planned my revenge-- to crush you in historic proportions. All of that is true, except for the bitterness. I was happy to be alive then, and I'm happy to be with you today.
 
@@ -34,11 +36,46 @@ we've all had some of these players on our teams. this will be a time to celebra
 
 ## Celebrating our victory
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/M3Tf9yccMlk?start=63&end=93" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/M3Tf9yccMlk?start=63&end=93&autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
 ## Celebrating our players
+
+--
+
+``` {r celebrate_jeff}
+knitr::include_graphics("https://media.giphy.com/media/35HTaxVJWzp2QOShct/giphy.gif")
+```
+
+???
+I was skeptical you would go along with this. I've actually predicted your responses with gif's.
+advance
+About right. C'mon, I mean it-- celebrate with me!
+advance
+I think there's only one thing that will get you off your feet. Even Jimmy Wilson is going to be celebrating with us.
+
+---
+
+## Celebrating our players
+
+--
+
+``` {r celebrate_rando}
+knitr::include_graphics("https://media.giphy.com/media/vvz5AVSb96m0FY9XFb/giphy.gif")
+```
+---
+## Celebrating our players
+
+--
+
+<iframe src="https://open.spotify.com/embed/track/3HkYYew6j5qPe6pl4mkJV3#1:12" width="300" height="500" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+``` {r celebrate_roy}
+knitr::include_graphics("https://media.giphy.com/media/3o7abIileRivlGr8Nq/giphy.gif")
+```
+
+???
 
 (next, let's celebrate our players. When you see a guy, i think it will be interesting, by a show of hands, to see how much we have a shared history with these guys (and how ridiculous this all really is). We're also going to play a game of "Caption this" for each image.)
 
@@ -122,13 +159,15 @@ knitr::include_graphics("files/evans.PNG")
 
 ## Team Announcements
 
-(JBB has been discussing internally about whether or not to expand our front office. We have made some decisions about the types of hires we will make, but not the long-term structure of the organization. We may be bringing on a new staff member on a short-term basis).
-
 --
 
 ``` {r foster, out.height=400, out.width = 600, eval = TRUE, echo = FALSE}
 knitr::include_graphics("files/foster.png")
 ```
+
+???
+
+(JBB has been discussing internally about whether or not to expand our front office. We have made some decisions about the types of hires we will make, but not the long-term structure of the organization. We may be bringing on a new staff member on a short-term basis).
 
 ---
 
